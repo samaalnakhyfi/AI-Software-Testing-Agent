@@ -2,10 +2,11 @@
 venv/
 __pycache__/
 .pytest_cache/
-*.pyc 
+*.pyc
 .env
-.SD_Store
 .env.*
+.DS_Store
+
 # Generated reports
 reports/
 report.html
