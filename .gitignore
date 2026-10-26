@@ -5,3 +5,7 @@ __pycache__/
 *.pyc 
 .env
 .SD_Store
+.env.*
+# Generated reports
+reports/
+report.html

@@ -7,8 +7,7 @@ def test_website():
             page = browser.new_page()
             page.goto("https://example.com")
 
-            assert page.title() == "Example Domain"
-
+            assert page.title() == "Example Domain"         
             print("Website test passed successfully!")
         finally:
             browser.close()
